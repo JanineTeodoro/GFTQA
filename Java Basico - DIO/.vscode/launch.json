@@ -4,6 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+
+        {
+            "type": "java",
+            "name": "Launch Usuario",
+            "request": "launch",
+            "mainClass": "Usuario",
+            "projectName": "Java Basico - DIO_8be2e265"
+        },
         {
             "type": "java",
             "name": "Launch Current File",
@@ -16,6 +25,17 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "Java Basico - DIO_8be2e265"
+        },
+        {   
+            "type": "java",
+            "request": "launch",
+            "mainClass": "Terminal",
+            "args": [
+                "JANINE",
+                "TEODORO",
+                "26",
+                "1.52"
+            ]
         }
     ]
 }

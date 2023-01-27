@@ -1,0 +1,4 @@
+class Carro extends Veiculo {
+
+
+}

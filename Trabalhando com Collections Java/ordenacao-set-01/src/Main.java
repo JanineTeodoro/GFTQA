@@ -41,6 +41,10 @@ public class Main{
                 serie.getGenero() + " - " + serie.getTempoEpisodio());
 
         System.out.println("--\tOrdem Gênero\t--"); //Exercício para fazer
+        Set<Serie> minhasSeries4 = new TreeSet<>(new ComparatorNomeGeneroTempoEpisodio()); //fazer nova class de comparator
+        minhasSeries3.addAll(minhasSeries);
+        for (Serie serie: minhasSeries4) System.out.println(serie.getNome() + " - " +
+                serie.getGenero() + " - " + serie.getTempoEpisodio());
 
         System.out.println("--\tOrdem Tempo Episódio\t--"); //Exercício para fazer
     }

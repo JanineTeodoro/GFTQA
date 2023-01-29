@@ -6,6 +6,6 @@ Depois, mostre quantas vezes cada valor foi conseguido.
 public class Main {
     public static void main(String[] args) {
 
-        
+
     }
 }
